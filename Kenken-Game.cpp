@@ -56,7 +56,7 @@ void Init_Board(Kenken *Board){
 }
 
 Kenken Input_Data(){
-    freopen("D:\\Mycode\\Artificial Intelligence\\Miscellaneous\\Kenken.txt","r",stdin);
+    freopen("Kenken.txt","r",stdin);
     Kenken Board;
     Init_Board(&Board);
     scanf("%d",&Board.Size);

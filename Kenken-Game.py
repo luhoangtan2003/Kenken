@@ -131,7 +131,7 @@ class Kenken:
         print()
 
     def Input_Data(self):
-        with open("D:\Mycode\Artificial Intelligence\Miscellaneous\Kenken.txt",'r') as File:
+        with open("D:\Github\Kenken\Kenken.txt",'r') as File:
             Lines = File.readlines()
             Num_Line = int(Lines.pop(0))
             self.Cages = [Constrains() for i in range(Num_Line)]
